@@ -227,6 +227,4 @@ it('should return 422 for invalid update data', async () => {
     expect(response.body).toHaveProperty('message', 'Invalid token'); // Match actual API response
   });
   
-  
-  
 });
