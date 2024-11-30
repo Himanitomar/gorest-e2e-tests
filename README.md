@@ -40,13 +40,15 @@ Add the following variables to the .env file:
 API_URL=https://gorest.co.in/public/v2
 BEARER_TOKEN=<your_token_here>
 Replace <your_token_here> with your API token from the GoRest Dashboard.
-**
-Running Tests**
-Run all tests:
-npm test
-Run tests in watch mode (for development):
 
+**Running Tests**
+
+**Run all tests:**
+npm test
+
+**Run tests in watch mode (for development):**
 npm run test:watch
+
 Check the output for any failed or passing tests.
 
 **CI/CD Pipeline**
